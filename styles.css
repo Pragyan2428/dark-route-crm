@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f3f4f6;
+}
+
+header {
+  background: #111827;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.controls {
+  padding: 15px;
+  background: #fff;
+}
+
+.controls input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.filters button {
+  margin: 4px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.export {
+  background: #16a34a;
+  color: white;
+}
+
+main {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-left: 6px solid;
+}
+
+.gold { border-color: #d97706; }
+.silver { border-color: #6b7280; }
+.bronze { border-color: #92400e; }
+
+.actions {
+  margin: 8px 0;
+}
+
+.actions a {
+  margin-right: 8px;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+}
+
+.call { background: #2563eb; }
+.whatsapp { background: #16a34a; }
+
+select, textarea {
+  width: 100%;
+  margin-top: 6px;
+  padding: 6px;
+}
+
+.meta {
+  font-size: 12px;
+  color: #555;
+  margin-top: 4px;
+}

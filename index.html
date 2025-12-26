@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dark Route – Sponsorship CRM</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Dark Route – Sponsorship CRM</h1>
+  <p>Track • Follow-up • Close sponsors</p>
+</header>
+
+<section class="controls">
+  <input type="text" id="searchInput" placeholder="Search company or type..." />
+
+  <div class="filters">
+    <button onclick="filterTier('all')">All</button>
+    <button onclick="filterTier('gold')">Tier A</button>
+    <button onclick="filterTier('silver')">Tier B</button>
+    <button onclick="filterTier('bronze')">Tier C</button>
+    <button class="export" onclick="exportCSV()">Export CSV</button>
+  </div>
+</section>
+
+<main id="company-container"></main>
+
+<script src="script.js"></script>
+</body>
+</html>
